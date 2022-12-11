@@ -1,7 +1,6 @@
 public class Exam2 {
 
-//2. A+B (두 수를 입력받고 합을 출력하는 문제)
-
+    //2. A+B (두 수를 입력받고 합을 출력하는 문제)
     public static void main(String []args){
 
         //(0 < A, B < 10)
@@ -24,3 +23,5 @@ public class Exam2 {
         }
 
     }
+
+}
