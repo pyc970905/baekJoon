@@ -1,0 +1,149 @@
+//1. Hello World (Hello World!를 화면에 출력하는 문제)
+
+    public static void main(String []args){
+        System.out.println("Hello World!");
+    }
+    
+//2. A+B (두 수를 입력받고 합을 출력하는 문제)
+
+    public static void main(String []args){
+
+          //(0 < A, B < 10)
+          Scanner input = new Scanner(System.in);
+
+          Integer a,b;
+
+          a = input.nextInt();
+          b = input.nextInt();
+
+          if(a > 0 && b < 10 ) {
+              System.out.println(a + b);
+          }
+          else if (a <= 0){
+              System.out.println("숫자 a의 범위가 맞지 않습니다.");
+          }
+
+          else if ( b >= 10 ) {
+              System.out.println("숫자 b의 범위가 맞지 않습니다.");
+          }
+
+      }
+      
+//3. A-B (두 수를 입력받고 뺄셈을 한 결과를 출력하는 문제)
+
+
+    public static void main(String []args){
+
+          //(0 < A, B < 10)
+          Scanner input = new Scanner(System.in);
+
+          Integer a,b;
+
+          a = input.nextInt();
+          b = input.nextInt();
+
+          if(a > 0 && b < 10 ) {
+              System.out.println(a - b);
+          }
+          else if (a <= 0){
+              System.out.println("숫자 a의 범위가 맞지 않습니다.");
+          }
+
+          else if ( b >= 10 ) {
+              System.out.println("숫자 b의 범위가 맞지 않습니다.");
+          }
+
+      }
+      
+// 3. AxB (두 수를 입력받고 곱셈을 한 결과를 출력하는 문제)       
+    public static void main(String []args){
+
+          //(0 < A, B < 10)
+          Scanner input = new Scanner(System.in);
+
+          Integer a,b;
+
+          a = input.nextInt();
+          b = input.nextInt();
+
+          if(a > 0 && b < 10 ) {
+              System.out.println(a * b);
+          }
+          else if (a <= 0){
+              System.out.println("숫자 a의 범위가 맞지 않습니다.");
+          }
+
+          else if ( b >= 10 ) {
+              System.out.println("숫자 b의 범위가 맞지 않습니다.");
+          }
+
+      }
+      
+//5. A/B (두 수를 입력받고 나눗셈을 한 결과를 출력하는 문제)
+
+    public static void main(String []args){
+
+          //(0 < A, B < 10)
+          Scanner input = new Scanner(System.in);
+
+          Integer a,b;
+
+          a = input.nextInt();
+          b = input.nextInt();
+
+          if(a > 0 && b < 10 ) {
+              System.out.println(a / b);
+          }
+          else if (a <= 0){
+              System.out.println("숫자 a의 범위가 맞지 않습니다.");
+          }
+
+          else if ( b >= 10 ) {
+              System.out.println("숫자 b의 범위가 맞지 않습니다.");
+          }
+
+      }
+
+//6. 사칙연산 (모든 연산 문제)
+
+    public static void main(String []args){
+
+        //(0 < A, B < 10)
+        Scanner input = new Scanner(System.in);
+
+        Integer a,b;
+
+        a = input.nextInt();
+        b = input.nextInt();
+
+        if(a > 0 && b < 10 ) {
+            System.out.println("두 수의 덧셈은 " + (a + b));
+            System.out.println("두 수의 뺄셈은 " + (a - b));
+            System.out.println("두 수의 곱셈은 " + (a * b));
+            System.out.println("두 수의 나눗셈 몫은 " + (a / b));
+            System.out.println("두 수의 나눗셈 나머지는 " + (a % b));
+        }
+        else if (a <= 0){
+            System.out.println("숫자 a의 범위가 맞지 않습니다.");
+        }
+
+        else if ( b >= 10 ) {
+            System.out.println("숫자 b의 범위가 맞지 않습니다.");
+        }
+        
+ // 7. ??! (중복된 아이디를 입력했다는 가정하에 해당 아이디 뒤에 특정 문자값을 더해 출력하는 문제)
+ 
+     public static void main(String []args){
+
+        Scanner input = new Scanner(System.in);
+
+        String id = input.nextLine();
+
+       if (id.length() < 50 && !id.isEmpty() && id != null) {
+           System.out.println(id +"??!");
+       }
+       else {
+           System.out.println("유효하지 않은 입력값입니다.");
+       }
+
+    }
